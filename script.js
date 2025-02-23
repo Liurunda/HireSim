@@ -74,4 +74,8 @@ function updateGameStatus() {
     }
 }
 
+function initial(){
+    popupElement.style.display = 'none';
+}
+initial();
 updateResume();
